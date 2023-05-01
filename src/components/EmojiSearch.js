@@ -101,6 +101,8 @@ const emojis = [
   { id: 98, emoji: '🤑', name: 'Money-Head' },
   { id: 99, emoji: '🥳', name: 'Face with Party Horn and Party Hat' },
   { id: 100, emoji: '💯', name: '100' },
+  { id: 101, emoji: '🔢', name: '1234' },
+  { id: 102, emoji: '😇', name: 'Innocent' },
 ];
 
 const EmojiSearch = () => {
