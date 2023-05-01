@@ -1,0 +1,49 @@
+.emoji-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.emoji-search__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.emoji-search__input {
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.emoji-search__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.emoji-search__item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.emoji-search__emoji {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.emoji-search__name {
+    font-size: 1.5rem;
+}
